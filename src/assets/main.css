@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --mainBackground: #000;
+  --mainSection: #121212;
+  --mainBorder: 0.3em;
+  --cardPadding: 0.5em;
+  --mainColor: white;
+}
+
+body {
+  background: var(--mainBackground);
+  color: var(--mainColor);
+  font-family: sans-serif;
+  margin: 0;
+}
+
+#app {
+  height: 97vh;
+  padding: 0.7em;
+}

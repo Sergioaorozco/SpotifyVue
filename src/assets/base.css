@@ -1,0 +1,12 @@
+:root {
+  --mainBackground: #000;
+  --mainSection: #121212;
+  --mainColor: white;
+}
+
+
+body {
+  background: var(--mainBackground);
+  color: var(--mainColor);
+  font-family: sans-serif;
+}
